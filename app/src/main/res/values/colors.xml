@@ -9,8 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="lime">#FFD4E157</color>
-    <color name="lime_light">#FFffff89</color>
-    <color name="lime_dark">#FFa0af22</color>
-
+    <color name="lime_light">#FFFFFF89</color>
+    <color name="lime_dark">#FFA0AF22</color>
+    <color name="deep_orange">#FFFF3D00</color>
+    <color name="deep_orange_dark">#FFC30000</color>
+    <color name="deep_orange_light">#FFFF7539</color>
 
 </resources>
