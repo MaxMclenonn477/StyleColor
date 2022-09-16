@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     This method will be call via button click to send the users name to another screen.
     Any method that the user wants to call from a button
      */
-    public void switchScreens(View veiw){
+    public void switchScreens(View view){
         //make a reference to the EditText in the xml for the page
         EditText editText = findViewById(R.id.userName);
         // extract the String text from this editText
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         //intent is coming from (first param) and where it is going (second param)
         Intent intent = new Intent(this,MainActivity2.class);
         //
-        intent.putExtra("textView", name);
+        intent.putExtra("none", name);
         //
         startActivity(intent);
     }
