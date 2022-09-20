@@ -72,6 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next Page"
+
             android:layout_marginLeft="40dp"
             android:layout_marginTop="@dimen/topMargin"
             app:layout_column="1"
@@ -81,6 +82,8 @@
             android:id="@+id/none"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="60dp"
             android:text="TextView"
             app:layout_column="1"
             app:layout_row="0" />

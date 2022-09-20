@@ -10,10 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/screenMargin"
+        android:layout_marginTop="24dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="30dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/button2"
@@ -26,6 +29,7 @@
             android:layout_height="53dp" />
 
         <TextView
+            android:id="@+id/theName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Welcome To Color Changer"
@@ -69,7 +73,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enter" />
+            android:text="Enter"
+            android:onClick="switchScreens"/>
 
     </LinearLayout>
 
